@@ -1,8 +1,8 @@
 def speak_to_grandma
   if greeting == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    p "I LOVE YOU TOO PUMPKIN!"
   elsif greeting.upcase
-    puts "NO, NOT SINCE 1938!"
+    p "NO, NOT SINCE 1938!"
   else
-    puts "HUH?! SPEAK UP, SONNY!"
+    p "HUH?! SPEAK UP, SONNY!"
   end
